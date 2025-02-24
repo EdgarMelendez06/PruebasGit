@@ -29,6 +29,10 @@ const Form = () => {
         <>
         <form onSubmit={e => e.preventDefault()}>
             <label> Agregar Tarea</label>
+            <input type="text" name="Producto"/>
+            <input type="text" name="Marca"/>
+            <input type="number" name="Cantidad"/>
+            <input type="number" name="Precio"/>
             <input className={styles.form_input} type="text" name="todo" onChange={handleChange}/>
             <button className={styles.form_button} onClick={handleClick}>Agregar</button> 
             
