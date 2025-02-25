@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
-import SalaCine from "../components/SalaCine";
-import SelectorSala from "../components/SelectorSala";
-import ResumenCompra from "../components/ResumenCompra";
+import SalaCine from "./components/SalaCine";
+import SelectorSala from "./components/SelectorSala";
+import ResumenCompra from "./components/ResumenCompra";
 
 export default function Home() {
     const [sala, setSala] = useState(1);
